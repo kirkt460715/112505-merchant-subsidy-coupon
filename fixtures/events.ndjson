@@ -1,0 +1,5 @@
+{"cursor": 1, "source": "merchant", "minute": 35, "payload": {"id": "m-a", "status": "paused"}}
+{"cursor": 2, "source": "terminal", "minute": 50, "payload": {"receipt": "use-19", "actual_minute": 30, "member": "h-a", "terminal": "t-1", "activity": "rubbing", "benefit_cents": 4200}}
+{"cursor": 3, "source": "terminal", "minute": 55, "payload": {"receipt": "use-20", "actual_minute": 41, "member": "h-a", "terminal": "t-1", "activity": "rubbing", "benefit_cents": 1600}}
+{"cursor": 4, "source": "household", "minute": 60, "payload": {"request": "return", "receipt": "use-19", "line": "L1"}}
+{"cursor": 5, "source": "merchant", "minute": 66, "payload": {"request": "reallocate", "terminal": "t-1", "to": "t-3"}}

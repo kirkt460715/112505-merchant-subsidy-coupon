@@ -1,0 +1,12 @@
+[
+  {
+    "operation": "pay-merchant",
+    "recipient": "county-funds",
+    "delivery": "lost_reply",
+    "receipt": {
+      "claim": "claim-19",
+      "receipt": "wire-1",
+      "state": "paid"
+    }
+  }
+]

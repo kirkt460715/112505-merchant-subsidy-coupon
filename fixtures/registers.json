@@ -1,0 +1,55 @@
+{
+  "coupon": {
+    "id": "c-7",
+    "household": "house-7",
+    "cap_cents": 12000,
+    "members": [
+      "h-a",
+      "h-b"
+    ],
+    "expires": 90
+  },
+  "merchant_rules": {
+    "m-a": [
+      "rubbing"
+    ],
+    "m-b": [
+      "paper"
+    ],
+    "m-c": [
+      "rubbing",
+      "paper"
+    ]
+  },
+  "offline_grants": [
+    {
+      "terminal": "t-1",
+      "merchant": "m-a",
+      "cap_cents": 6500,
+      "valid_until": 70
+    },
+    {
+      "terminal": "t-2",
+      "merchant": "m-b",
+      "cap_cents": 4500,
+      "valid_until": 65
+    }
+  ],
+  "purchase": [
+    {
+      "line": "L1",
+      "activity": "rubbing",
+      "price": 4200
+    },
+    {
+      "line": "L2",
+      "activity": "tea",
+      "price": 2300
+    }
+  ],
+  "approved_payout": {
+    "receipt": "use-19",
+    "amount": 4200,
+    "transfer": "wire-1"
+  }
+}
